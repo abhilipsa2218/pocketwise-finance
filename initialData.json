@@ -1,0 +1,34 @@
+{
+  "monthlyBudget": 10000,
+  "daysInCycle": 30,
+  "dayOfCycle": 11,
+  "startingBalance": 10000,
+  "spent": 3280,
+  "saved": 1200,
+  "commitments": 2450,
+  "expenses": [
+    { "id": "e1", "name": "Groceries & essentials", "category": "Essentials", "amount": 720, "day": 2, "icon": "shopping-basket" },
+    { "id": "e2", "name": "Metro & commute", "category": "Transport", "amount": 340, "day": 3, "icon": "train-front" },
+    { "id": "e3", "name": "Coffee with friends", "category": "Lifestyle", "amount": 280, "day": 4, "icon": "coffee" },
+    { "id": "e4", "name": "Phone recharge", "category": "Bills", "amount": 299, "day": 5, "icon": "smartphone" },
+    { "id": "e5", "name": "Lunch out", "category": "Food", "amount": 410, "day": 7, "icon": "utensils" },
+    { "id": "e6", "name": "Skincare refill", "category": "Lifestyle", "amount": 560, "day": 8, "icon": "sparkles" },
+    { "id": "e7", "name": "Auto ride", "category": "Transport", "amount": 190, "day": 10, "icon": "car-front" },
+    { "id": "e8", "name": "Snacks", "category": "Food", "amount": 180, "day": 11, "icon": "cookie" },
+    { "id": "e9", "name": "Streaming subscription", "category": "Subscriptions", "amount": 299, "day": 11, "icon": "play" }
+  ],
+  "goals": [
+    { "id": "g1", "name": "Emergency cushion", "target": 3000, "current": 1200, "color": "mint", "deadline": "30 days" },
+    { "id": "g2", "name": "Weekend getaway", "target": 2500, "current": 650, "color": "lilac", "deadline": "45 days" }
+  ],
+  "subscriptions": [
+    { "id": "s1", "name": "StreamFlix", "detail": "Renews in 3 days", "amount": 299, "active": true, "category": "Entertainment" },
+    { "id": "s2", "name": "Music Plus", "detail": "Renews in 8 days", "amount": 119, "active": true, "category": "Music" },
+    { "id": "s3", "name": "Cloud storage", "detail": "Renews in 12 days", "amount": 79, "active": true, "category": "Utilities" }
+  ],
+  "plannedCommitments": [
+    { "id": "c1", "name": "Rent & utilities", "amount": 1500, "due": "In 5 days", "type": "essential" },
+    { "id": "c2", "name": "Family contribution", "amount": 650, "due": "In 9 days", "type": "essential" },
+    { "id": "c3", "name": "Friend's birthday", "amount": 300, "due": "In 12 days", "type": "flexible" }
+  ]
+}
